@@ -1,0 +1,187 @@
+.merch{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.merch>p{
+    color: aliceblue;
+    font-size: x-large;
+    padding: 5px;
+    margin-left: 300px;
+    
+}
+
+.merch>p:hover{
+    border-bottom: 2px  solid white;
+    cursor: pointer;
+}
+
+.hoodies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom:60px;
+}
+
+.hoodies>div>img{
+    margin-top: 10px;
+    height: 400px;
+    cursor: pointer;
+
+}
+
+.hoodies>div>img:hover{
+
+    border-bottom: 2px solid white;
+
+}
+
+.hoodies>P{
+    display:flex;
+    flex-direction: none;
+}
+.button{
+    border: 2px solid white;
+    color: aliceblue;
+    width: 20%;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.button:hover{
+   background-color: aliceblue;
+   color: black;
+   cursor: pointer;
+}
+.second_section{
+    margin-top: 200px;
+
+    display: flex;
+    flex-direction: row;
+    
+}
+.second_section>p{
+    color: aliceblue;
+    font-size: x-large;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+
+  
+}
+
+.Ys_merch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.Ys_merch>div>img{
+    margin-top: 10px;
+    height: 400px;
+    cursor: pointer;
+}
+.Ys_merch>div>img:hover{
+    
+    border-bottom: 2px solid white;
+ 
+}
+
+.second_section>p:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+
+}
+.third_section>p{
+    margin: 100px;
+    font-size: x-large;
+}
+
+.Complete_tarcksuit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.Complete_tarcksuit>img{
+    height:500px;
+}
+
+@media only screen and (max-width: 1020px){
+    .hoodies{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+     
+       
+    }
+ 
+    .hoodies>div{
+        margin-left: 25px;
+    }
+    .hoodies>div>img{
+        margin-top: 10px;
+        height: 300px;
+        cursor: pointer;
+    
+    }
+    .merch{
+        margin-top: 200px;
+        margin-right: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .merch>p{
+        color: aliceblue;
+        font-size: x-large;
+    }
+    .hoodies>div>p{
+        margin-right: 35px;
+        margin-left: 25px;
+    }
+    .second_section{
+        margin-top: 200px;
+        margin-right: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .second_section>p{
+        color: aliceblue;
+        font-size: x-large;
+        padding: 5px;
+        text-align: center;
+    }
+    .Ys_merch{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2,1fr);
+     
+       
+    }
+    .Ys_merch>div{
+        margin-left: 25px;
+    }
+    .Ys_merch>div>img{
+        margin-top: 10px;
+        height: 300px;
+        cursor: pointer;
+    }
+    .button{
+        width: 50%;
+    }
+    .Ys_merch>div>p{
+        margin-right: 35px;
+        margin-left: 25px;
+    }
+ }
+  

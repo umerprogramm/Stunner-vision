@@ -1,0 +1,23 @@
+.banner>img{
+   width: 100%;
+   height: 600px;
+   object-fit: cover;
+}
+.native_image{
+   display: none;
+}
+
+@media only screen and (max-width: 511px){
+   .banner_image{
+     display: none;
+   }
+
+   .native_image{
+      display: block;
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+   }
+   
+}
+ 
